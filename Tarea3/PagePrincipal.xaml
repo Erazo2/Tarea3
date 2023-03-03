@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea3.PagePrincipal">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bienvenidos" />
+            <Entry x:Name="txtId" Placeholder="INGRESE ID" Keyboard="Text" />
+            <Entry x:Name="txtNombres" Placeholder="INGRESE SU NOMBRE" Keyboard="Text" />
+            <Entry x:Name="txtapellido" Placeholder="INGRESE SU APELLIDO" Keyboard="Text" />
+            <Entry x:Name="txtEdad" Placeholder="INGRESE SU EDAD" Keyboard="Text" />
+            <Entry x:Name="txtCorreo" Placeholder="INGRESE SU CORREO" Keyboard="Text" />
+            <Entry x:Name="txtDireccion" Placeholder="INGRESE SU DIRECCION" Keyboard="Text" />
+            <Button x:Name="BtnSalvar" Text="SALVAR" Clicked="BtnSalvar_Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
